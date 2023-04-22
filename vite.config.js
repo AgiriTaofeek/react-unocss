@@ -41,6 +41,14 @@ export default defineConfig({
         // ['my-blue', { color: 'blue' }],
         [/^my-(.*)$/, (result) => ({ color: result[1] })],
       ],
+      theme: {
+        colors: {
+              veryCool: '#0000ff', // class="text-very-cool"
+              brand: {
+                primary: 'hsla(var(--hue, 217), 78%, 51%)', //class="bg-brand-primary"
+              },
+            },
+      }
     }),
     react(),
   ],
