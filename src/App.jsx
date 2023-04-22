@@ -15,6 +15,7 @@ function App() {
       <div className="i-ri-admin-fill text-7xl" />
       <button className="btn-red">button</button>
       <button className="btn-yellow">button</button>
+      <h1 className="text-very-cool">hello</h1>
     </>
   );
 }
